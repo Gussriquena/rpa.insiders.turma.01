@@ -1,0 +1,32 @@
+package main;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		
+		// chromedriver - chrome
+		// geckodriver - firefox
+		// iedriver - IE
+		
+		// Indicando para o selenium o caminho do chromedriver
+		System.setProperty("webdriver.chrome.driver", "resources\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		
+		driver.get("https://rpa-insiders-tools.vercel.app/exercicios/exercicio1");
+		
+		
+		
+		
+		driver.findElement(By.id("name")).sendKeys("Gustavo de Oliveira Riquena");
+		
+		
+		// driver.close();
+		// driver.quit();
+	}
+
+}

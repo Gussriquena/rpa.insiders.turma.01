@@ -1,0 +1,58 @@
+package main;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
+public class Basic_04_Collections {
+
+	public static void main(String[] args) {
+		
+		// List - permite repetição
+		List<String> alunos = new ArrayList<>();
+		alunos.add("Gustavo");
+		alunos.add("Gustavo");
+		alunos.add("Raphael");
+		
+		//List<String> alunos2 = new ArrayList<>(List.of("Gustavo", "Kris", "Raphael"));
+		List<String> alunos2 = List.of("Gustavo", "Kris", "Raphael");
+		
+		alunos2.forEach(aluno -> System.out.println(aluno));
+		alunos2.forEach(aluno -> showAluno(aluno));
+		alunos2.forEach(System.out::println);
+		
+		// Set - Não permite repetição
+		Set<String> alunosSet = Set.of("Gustavo", "Kris", "Raphael");
+		
+		// Map - Key : Value
+		Map<Integer, String> alunosKeyValue = new HashMap<>();
+		alunosKeyValue.put(1, "Gustavo");
+		alunosKeyValue.put(2, "Kris");
+		
+		Map<Integer, String> alunosKeyValue2 = new HashMap<>( ) {{
+			put(1, "Gustavo");
+			put(2, "Kris");
+			put(3, "Raphael");
+		}};
+		
+		// entrySet() - Retornar uma visualização do map
+		// keySet() - Retorna uma view das keys
+		// values() - Retorna uma view dos valores
+		
+		for(Map.Entry<Integer, String> aluno : alunosKeyValue2.entrySet()) {
+			System.out.println(aluno.getKey() + " - " + aluno.getValue());
+		}
+		
+		
+		
+	}
+	
+	private static void showAluno(String texto) {
+		System.out.println(texto);
+	}
+}
+
+
+
