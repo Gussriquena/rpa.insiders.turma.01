@@ -1,6 +1,6 @@
 package curso.main;
 
-import curso.seletores.Aula1_xpath;
+import curso.selenium.Aula1_Selenium;
 
 public class Main {
 	
@@ -8,8 +8,8 @@ public class Main {
 		// The path to the driver executable must be set by the webdriver.chrome.driver system property
 		System.setProperty("webdriver.chrome.driver", "resources\\chromedriver.exe");
 		
-		Aula1_xpath aulaXpath = new Aula1_xpath();
-		aulaXpath.inputDynamicData();
+		Aula1_Selenium aulaXpath = new Aula1_Selenium();
+		aulaXpath.InsertPeople();
 		
 	}
 
