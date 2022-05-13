@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Projetos\rpa-turma-01\java.02.selenium"/>
 			<item value="C:\Projetos\rpa-turma-01\nome.projeto"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -45,14 +46,17 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="rpa.03.utils"/>
 			<item value="nome.projeto"/>
 			<item value="java.02.selenium"/>
 		</list>
 		<list key="name">
+			<item value="rpa.03.utils"/>
 			<item value="nome.projeto"/>
 			<item value="java.02.selenium"/>
 		</list>
 		<list key="artifactId">
+			<item value="rpa.03.utils"/>
 			<item value="nome.projeto"/>
 			<item value="java.02.selenium"/>
 		</list>
