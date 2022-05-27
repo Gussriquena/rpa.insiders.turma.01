@@ -12,7 +12,6 @@
     <fullyQualifiedTypeName name="curso.commons.Commons"/>
     <fullyQualifiedTypeName name="curso.selenium.Aula2_Options"/>
     <fullyQualifiedTypeName name="curso.seletores.Aula1_xpath"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="rpa.utils.exceptions.ErrorHandling_1_Basic"/>
     <fullyQualifiedTypeName name="java.lang.IndexOutOfBoundsException"/>
@@ -22,4 +21,9 @@
     <fullyQualifiedTypeName name="curso.browser.DriverFactory"/>
     <fullyQualifiedTypeName name="java.nio.file.Files"/>
     <fullyQualifiedTypeName name="java.nio.file.Paths"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.remote.service.DriverCommandExecutor"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.By.ByXPath"/>
+    <fullyQualifiedTypeName name="rpa.people.generator.model.Person"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>

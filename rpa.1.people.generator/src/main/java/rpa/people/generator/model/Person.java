@@ -93,7 +93,7 @@ public class Person {
 
 	@Override
 	public String toString() {
-		return " {fullName: '" + fullName + "', email: '" + email + "', gender: '" + gender + "', address: '" + address
+		return " { fullName: '" + fullName + "', email: '" + email + "', gender: '" + gender + "', address: '" + address
 				+ "', country: '" + country + "', uf: '" + uf + "', city: '" + city + "', zipCode: '" + zipCode + "'}";
 	}
 	 

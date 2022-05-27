@@ -46,16 +46,19 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="rpa.1.people.generator"/>
 			<item value="rpa.03.utils"/>
 			<item value="nome.projeto"/>
 			<item value="java.02.selenium"/>
 		</list>
 		<list key="name">
+			<item value="rpa.1.people.generator"/>
 			<item value="rpa.03.utils"/>
 			<item value="nome.projeto"/>
 			<item value="java.02.selenium"/>
 		</list>
 		<list key="artifactId">
+			<item value="rpa.1.people.generator"/>
 			<item value="rpa.03.utils"/>
 			<item value="nome.projeto"/>
 			<item value="java.02.selenium"/>
