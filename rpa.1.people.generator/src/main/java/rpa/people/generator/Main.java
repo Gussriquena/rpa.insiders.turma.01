@@ -67,7 +67,11 @@ public class Main {
 	}
 	
 	private static void createOutputExcel(List<Person> personList) {
-		try (Workbook workbook = new XSSFWorkbook()) {
+		String outputFile = "D:\\RPA Academy\\curso\\Projetos\\rpa.00.generator\\01.entrada\\people_file.xlsx";
+		
+		try (Workbook workbook = new XSSFWorkbook();
+			FileOutputStream outputStream = new FileOutputStream(outputFile)) {
+			
 			Sheet sheet = workbook.createSheet("people");
 			
 			Row headerRow = sheet.createRow(0);
@@ -96,8 +100,6 @@ public class Main {
 				line++;
 			}
 			
-			String outputFile = "D:\\RPA Academy\\curso\\Projetos\\rpa.00.generator\\01.entrada\\people_file.xlsx";
-			FileOutputStream outputStream = new FileOutputStream(outputFile);
 			workbook.write(outputStream);
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
